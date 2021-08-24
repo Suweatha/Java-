@@ -1,0 +1,17 @@
+class fibonacci {
+   public static void main ( string [] args ) {
+    
+       int term , a=0,b=1,c;
+       system.out.print("enter term  ")
+       scanner r=new scanner ( system.in) ;
+       term=r.nextint();
+       for(int i=1;i<+term;i++){
+       
+          system.out.print(a="  ");
+          c=a+b;
+          a=b;
+          b=c;
+             
+   }
+   
+}
